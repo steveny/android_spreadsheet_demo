@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android">
+   <EditTextPreference
+      android:key="google_id"
+      android:title="@string/google_id_title"
+      android:summary="@string/google_id_summary"
+      android:defaultValue="" />
+   <EditTextPreference
+      android:key="google_pass"
+      android:title="@string/google_pass_title"
+      android:summary="@string/google_pass_summary"
+      android:password="true"
+      android:defaultValue="" />
+   <EditTextPreference
+      android:key="spreadsheet"
+      android:title="@string/spreadsheet_title"
+      android:summary="@string/spreadsheet_summary"
+      android:defaultValue="" />
+   <EditTextPreference
+      android:key="row"
+      android:title="@string/row_title"
+      android:summary="@string/row_summary"
+      android:defaultValue="" />
+   <EditTextPreference
+      android:key="column"
+      android:title="@string/column_title"
+      android:summary="@string/column_summary"
+      android:defaultValue="" />
+   <CheckBoxPreference
+      android:key="demo_mode"
+      android:title="@string/demo_mode_title"
+      android:summary="@string/demo_mode_summary"
+      android:password="true"
+      android:defaultValue="false" />
+</PreferenceScreen>

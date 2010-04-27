@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="networth">Click Refresh...</string>
+    <string name="networth_previous"></string>
+    <string name="refresh_label">Refresh</string>
+    <string name="history_title">Networth :: History</string>
+    <string name="history_label">History</string>
+    <string name="exit_label">Exit</string>
+    <string name="app_name"></string>
+    <string name="empty">No history!</string>
+    <string name="about_title">Networth :: About</string>
+    <string name="about_label">About</string>
+    <string name="about_text">This is my networth.  It has absolutely no use to you.</string>
+    <string name="settings_label">Settings</string>
+    <string name="settings_shortcut">S</string>
+    <string name="clear_label">Clear History</string>
+    <string name="clear_shortcut">C</string>
+    <string name="settings_title">Settings</string>
+    <string name="google_id_title">Google Email</string>
+    <string name="google_id_summary"></string>
+    <string name="google_pass_title">Google Password</string>
+    <string name="google_pass_summary"></string>
+    <string name="spreadsheet_title">Google Doc Spreadsheet</string>
+    <string name="spreadsheet_summary">The spreadsheet that as the value you want to track</string>
+    <string name="demo_mode_title">Demo Mode</string>
+    <string name="demo_mode_summary">This option will randomize the output, fake history, and not save results</string>
+    <string name="row_title">Row</string>
+    <string name="row_summary">Spreadsheet row containing the value you want to track</string>
+    <string name="column_title">Column</string>
+    <string name="column_summary">Spreadsheet column containing the value you want to track</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="clear_text">All networth history has been cleared</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.steveny">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:icon="@drawable/icon" android:label="Networth">
+        <activity android:name=".NetWorth">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".History" android:label="@string/history_title"/>
+        <activity android:name=".About"
+                  android:label="@string/about_title"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".Settings"
+                  android:label="@string/settings_title"/>
+    </application>
+</manifest>
